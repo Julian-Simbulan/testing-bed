@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MC Mobs at a Glance: Hostiles</title>
+
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Julian Migell M. Simbulan">
+		<meta name = "keywords" content = "HTML, CSS, JavaScript">
+		<meta name = "revised" content = "02-01-2021">
+		
+		<link rel = "icon" href = "../images/favicons/hostile-icon.ico" type = "image/gif">
+		<link rel = "stylesheet" href = "../css/style.css" type = "text/css">
+
+	</head>
+	
+	<body>
+		<!--sidebar-->
+		<aside class = "sidebar">
+			<!--page title-->
+			<img src = "../images/icons/hostile-icon.png" class = "mainIcon"> &nbsp <span class = "header">Hostiles</span>
+			<br>
+			<br>
+			<!--navigation list to other pages-->
+			<nav class = "navPages">
+				<a href = "../index.html" style = "position:absolute; left:44px">Home Page</a> <br>
+				<br>
+				<img src = "../images/icons/passive-icon.png" class = "miniIcon"><a href = "passives.html">Passives</a> <br>
+				<img src = "../images/icons/neutral-icon.png" class = "miniIcon"><a href = "neutrals.html">Neutrals</a> <br>
+				<img src = "../images/icons/about-icon.png" class = "miniIcon"><a href = "about mobs.html">About Mobs</a> <br>
+				<img src = "../images/icons/utility-icon.png" class = "miniIcon"><a href = "utility.html">Utility</a> <br>
+				<img src = "../images/icons/boss-icon.png" class = "miniIcon"><a href = "boss.html">Boss</a> <br>
+			</nav>
+			<br>
+			<!--navigation list to parts inside the page-->
+			<nav class = "navLocal" style = "height:215px">
+				<div>
+					<a href = "#hostileMobs">Hostile Mobs</a> <br>
+					<span>List of Hostile Mobs</span> <br>
+					&nbsp <a href = "#blaze"> > Blaze</a> <br>
+					&nbsp <a href = "#creeper"> > Creeper</a> <br>
+					&nbsp <a href = "#drowned"> > Drowned</a> <br>
+					&nbsp <a href = "#elderGuardian"> > Elder Guardian</a> <br>
+					&nbsp <a href = "#endermite"> > Endermite</a> <br>
+					&nbsp <a href = "#evoker"> > Evoker</a> <br>
+					&nbsp <a href = "#ghast"> > Ghast</a> <br>
+					&nbsp <a href = "#guardian"> > Guardian</a> <br>
+					&nbsp <a href = "#hoglin"> > Hoglin</a> <br>
+					&nbsp <a href = "#husk"> > Husk</a> <br>
+					&nbsp <a href = "#magmaCube"> > Magma Cube</a> <br>
+					&nbsp <a href = "#phantom"> > Phantom</a> <br>
+					&nbsp <a href = "#pillager"> > Pillager</a> <br>
+					&nbsp <a href = "#ravager"> > Ravager</a> <br>
+					&nbsp <a href = "#shulker"> > Shulker</a> <br>
+					&nbsp <a href = "#silverfish"> > Silverfish</a> <br>
+					&nbsp <a href = "#skeleton"> > Skeleton</a> <br>
+					&nbsp <a href = "#slime"> > Slime</a> <br>
+					&nbsp <a href = "#stray"> > Stray</a> <br>
+					&nbsp <a href = "#vex"> > Vex</a> <br>
+					&nbsp <a href = "#vindicator"> > Vindicator</a> <br>
+					&nbsp <a href = "#witch"> > Witch</a> <br>
+					&nbsp <a href = "#witherSkeleton"> > Wither Skeleton</a> <br>
+					&nbsp <a href = "#zoglin"> > Zoglin</a> <br>
+					&nbsp <a href = "#zombie"> > Zombie</a> <br>
+					&nbsp <a href = "#zombieVillager"> > Zombie Villager</a> <br>
+				</div>
+			</nav>
+		</aside>
+		
+		<!--main part containing all the content-->
+		<section class = "mainContent">
+			<!--description of hostile mobs-->
+			<article>
+				<p class = "title" id = "hostileMobs">Hostile Mobs</p>
+				<video class = "media" autoplay muted controls loop>
+					<source src = "../mmfiles/hostile-mobs-showcase.mp4" type = "video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<p class = "desc">Hostiles are aggressive creatures that actively attack the player on sight. They are often dangerous and require weapons to confront them.</p>	
+			</article>
+			
+			<!--all the hostile mobs-->
+			<article>
+				<p class = "title" id = "blaze">Blaze</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/blaze.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Blazes are flying multiple-limbed mobs found in nether fortresses. Blazes sink to the ground when not active, are immune to lava and fire, and get hurt by water. They attack players by setting themselves on fire, then shooting fireballs in bursts of 3 towards a player that they can directly see, setting the target on fire upon a successful hit. They can alert nearby blazes when a blaze is hurt by a player or mob.</p>
+					<p>Spawn Conditions: light level of 11- in nether fortresses; blaze spawners</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) from fireball <br> 1 hp (0.5 x <img src = "../images/icons/fire.png" class = "heart">) per 1.25 sec for 5 sec from fire</p>
+					<p>XP Drop: 10 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>blaze rod</td>
+								<td>0-1 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Blazes do not actually have a core to their body; they simply compose of a head and floating rods.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "creeper">Creeper</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/creeper.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Creepers are common deadly mobs that spawn in the dark. They are afraid of felines, and are best known for their iconic appearance. They attack players by approaching them, halting to hiss for 1.5 seconds, then exploding, destroying nearby blocks, greaty damaging their target and killing themselves in the process. They are also capable of attacks from above, and can turn into charged creepers when struck by lightning. Their detonation can be avoided by killing them or by going far away from the creepers.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7-</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 43 hp (21.5 x <img src = "../images/icons/normal.png" class = "heart">) at most from regular creeper <br> 85 hp (42.5 x <img src = "../images/icons/normal.png" class = "heart">) at most from charged creeper</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>gunpowder</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>random music disc (not pigstep)</td>
+								<td>1 when killed by skeleton/stray</td>
+							</tr>
+							<tr>
+								<td>creeper head</td>
+								<td>1 when killed by charged creeper</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Creepers were born from a coding bug when Notch was creating the model for the pig.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "drowned">Drowned</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/drowned.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Drowned are underwater undead humanoid mobs found in dark waters. They stay in water during the day, swimming around until a player steps into the water, due to them burning up in daylight. At night, they can step out of the water and attack turtle eggs, baby turtles, villagers, wandering traders, iron golems and players. They attack nearby targets through melee combat, and if they have a trident, they will also use ranged attacks by throwing tridents at their target.</p>
+					<p>Spawn Conditions: underwater with light level 7- and below y=58 in ocean biomes; underwater with light level 7- in rivers; near ocean ruins; when a zombie drowns</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">) from ranged</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed as adult; 12 XP when killed as baby</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>nautilus shell</td>
+								<td>1 when killed with this on their hand (3% chance)</td>
+							</tr>
+							<tr>
+								<td>gold ingot</td>
+								<td>5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>trident</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Drowned have sufficient skill to hit players in boats at maximum speed.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "elderGuardian">Elder Guardian</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/elder guardian.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Elder guardians are large water-based mobs found inside ocean monuments. They barely move, target nearby players and squid, and give nearby players Mining Fatigue III. They attack by firing a laser from their eyes to their target, taking a while to charge before shooting, and by extending spikes surrounding their body if their target is close enough.</p>
+					<p>Spawn Conditions: 3 inside every ocean monument</p>
+					<p>Health: 80 hp (40 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">) from laser <br> 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) from spikes</p>
+					<p>XP Drop: 10 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>prismarine shard</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>wet sponge</td>
+								<td>1 when killed</td>
+							</tr>
+							<tr>
+								<td>raw cod</td>
+								<td>50% chance when killed w/o fire</td>
+							</tr>
+							<tr>
+								<td>cooked cod</td>
+								<td>50% chance when killed w/ fire</td>
+							</tr>
+							<tr>
+								<td>prismarine crystals</td>
+								<td>66.7% chance when killed and did not drop raw/cooked cod</td>
+							</tr>
+							<tr>
+								<td>random fish</td>
+								<td>2.5% chance when killed (does not affect prismarine crystal drop rates)</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Elder guardians jumpscare players when they inflict mining fatigue on the latter. This wasn't intentional, and was supposed to be just a visual cue.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "endermite">Endermite</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/endermite.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Endermite are small annoying mobs that spawn when the player uses an ender pearl. They aggravate nearby endermen, attack nearby players, and despawn within 2 minutes. They attack by hitting their target's legs.</p>
+					<p>Spawn Conditions: 5% chance when an ender pearl lands</p>
+					<p>Health: 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 3 XP when killed</p>
+					<p>Loot Drops: none</p>
+					<p style = "text-align:justify">Fun Fact: <br> Endermite are the smallest hostile mobs in the game.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "evoker">Evoker</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/evoker.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Evokers are spell-casting illagers that spawn in woodland mansions and raids. They target villagers, iron golems and players, and avoid players when not ready. They attack using 2 methods: fang attacks and vexes. When using fang attacks, they would summon fangs in a pattern of either 2 circles of 13 fangs around themselves, or a straight line of 16 fangs towards their target. When using vexes, they would summon 3 vexes at a time until the number of vexes nearby is greater than 7.</p>
+					<p>Spawn Conditions: in woodland mansions; during raids</p>
+					<p>Health: 24 hp (12 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 10 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>totem of undying</td>
+								<td>1 when killed</td>
+							</tr>
+							<tr>
+								<td>emerald</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>ominous banner</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Evokers change the color of nearby blue-dyed sheep to red. This is a reference to priests in "Age of Empires", who can convert nearby enemies into friendlies.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "ghast">Ghast</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/ghast.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Ghasts are giant floating mobs found in the Nether. They float around and cry, and target nearby players that are in their direct line of sight. They attack by shooting fireballs from their mouths, which deals damage to blocks and players on impact, and set the surrounding impact area on fire.</p>
+					<p>Spawn Conditions: on solid blocks in basalt deltas, nether wastes and soul sand valley biomes</p>
+					<p>Health: 10 hp (5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) from direct impact <br> 12 hp (6 x <img src = "../images/icons/normal.png" class = "heart">) at most from explosion</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>ghast tear</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>gunpowder</td>
+								<td>0-2 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The sounds that ghasts make are actually the sounds made by the cat of one of the OST producers of Minecraft, C418.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "guardian">Guardian</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/guardian.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Guardians are water-based one-eyed mobs found near ocean monuments. They swim around spontaneously, stare at nearby players, and target nearby players and squid. They attack by firing a laser from their eyes to their target, taking a while to charge before shooting, and by extending spikes surrounding their body if their target is close enough.</p>
+					<p>Spawn Conditions: underwater between y=39 to y=61 near ocean monuments</p>
+					<p>Health: 30 hp (15 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) from laser <br> 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) from spikes</p>
+					<p>XP Drop: 10 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>prismarine shard</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>raw cod</td>
+								<td>40% chance when killed w/o fire</td>
+							</tr>
+							<tr>
+								<td>cooked cod</td>
+								<td>40% chance when killed w/ fire</td>
+							</tr>
+							<tr>
+								<td>prismarine crystals</td>
+								<td>66.7% chance when killed and did not drop raw/cooked cod</td>
+							</tr>
+							<tr>
+								<td>random fish</td>
+								<td>2.5% chance when killed (does not affect prismarine crystal drop rates)</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> In order for guardians to have the dynamic eye, the eye is coded as the "head" of the mob model. The head of many mob models follow the player around when they are close enough.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "hoglin">Hoglin</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/hoglin.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Hoglins are giant pig-based mobs found in the Nether. They are afraid of warped fungi, nether portals and respawn anchors, and can be bred using crimson fungi. They attack players on sight and piglins that attacked them by flinging their target using their head, and alerting nearby hoglins.</p>
+					<p>Spawn Conditions: in crimson forest biomes in herds of 3-4; inside hoglin stables in bastion remnants</p>
+					<p>Health: 40 hp (20 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 0.5 hp (0.25 x <img src = "../images/icons/normal.png" class = "heart">) - 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>leather</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>raw porkchop</td>
+								<td>2-4 when killed w/o fire</td>
+							</tr>
+							<tr>
+								<td>cooked porkchop</td>
+								<td>2-4 when killed w/ fire</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Hoglins are the only breedable hostile mobs.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "husk">Husk</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/husk.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Husks are undead humanoid mobs found in dark places in deserts. Husks do not burn in daylight, sometimes wear armor, and attack turtle eggs, baby turtles, villagers, wandering traders, iron golems and players. They attack nearby targets through melee combat, applying Hunger to their target in the process.</p>
+					<p>Spawn Conditions: light level of 7- in desert biome variants in groups of 4, 5% chance to spawn as a chicken jockey</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed as adult; 12 XP when killed as baby</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>iron ingot, carrot, or potato</td>
+								<td>2.5% chance for one of the three to drop when killed</td>
+							</tr>
+							<tr>
+								<td>naturally-spawned equipment worn</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Husks are slightly taller than zombies and drowned.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "magmaCube">Magma Cube</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/magma cube.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Magma cubes are varying-sized cubes found in the Nether. They are immune to lava and fire, randomly hop around, and target nearby iron golems and players. They attack by randomly jumping at their target, hurting the latter in the process. When killed, they split into 2-4 smaller versions of themselves.</p>
+					<p>Spawn Conditions: in nether waste biomes in groups of up to 4; in nether fortresses in groups of 4; in basalt delta biomes in groups of 2-5; magma cube spawners in bastion remnants</p>
+					<table>
+						<tr>
+							<td></td>
+							<td>tiny</td>
+							<td>small</td>
+							<td>big</td>
+						</tr>
+						<tr>
+							<td>Health:</td>
+							<td>1 hp <br> (0.5 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>4 hp <br> (2 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>16 hp <br> (8 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+						</tr>
+						<tr>
+							<td>Damage:</td>
+							<td>3 hp <br> (1.5 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>4 hp <br> (2 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>6 hp <br> (3 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+						</tr>
+						<tr>
+							<td>XP Drop:</td>
+							<td>1 XP</td>
+							<td>2 XP</td>
+							<td>4 XP</td>
+						</tr>
+						<tr>
+							<td>Loot Drop:</td>
+							<td>none</td>
+							<td>0-1 magma cream when killed</td>
+							<td>0-1 magma cream when killed</td>
+						</tr>
+					</table>
+					<p style = "text-align:justify">Fun Fact: <br> Magma Cubes are one of Jeb's favorite mob due to their layered jumping.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "phantom">Phantom</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/phantom.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Phantoms are stingray-based flying mobs that haunt players when they haven't slept in a while. They burn in daylight, avoid nearby cats, and circle at a certain altitude when idle. They attack by swooping down to hurt their target then retreating to their original altitude.</p>
+					<p>Spawn Conditions: when the player hasn't slept for 3+ in-game days (1+ hour), at nighttime or thunderstorms in the Overworld</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>phantom membrane</td>
+								<td>0-2 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Phantoms were originally red, but was then scrapped because it gave the misconception that they are Nether mobs.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "pillager">Pillager</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/pillager.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Pillagers are crossbow-wielding illagers that spawn in patrols, near outposts, and during raids. They attack villagers, wandering traders, iron golems and players. When in patrols, they randomly wander in a group, targeting valid targets. Near pillager outposts, they attack targets that get to close to the outpost. During raids, they actively pathfind to villages and kill targets they encounter, and celebrate when they do a successful raid. They attack by using their crossbows to shoot their target at range.</p>
+					<p>Spawn Conditions: in patrols in groups of 5; near outposts; during raids</p>
+					<p>Health: 24 hp (12 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 4 hp (2 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>crossbow</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>ominous banner</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> They are the only illager that do not fold their arms.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "ravager">Ravager</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/ravager.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Ravagers are large four-legged beasts that accompany illagers during raids. They can break leaves and crops, deal knockback, and target villagers, wandering traders, iron golems and players. They attack by ramming their target with their head, dealing damage and knockback. They can be blocked with a shield, which has a chance to stun them. However, they will retaliate by roaring, dealing damage and knockback to nearby mobs.</p>
+					<p>Spawn Conditions: part of raids from wave 3 onwards</p>
+					<p>Health: 100 hp (50 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 12 hp (6 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) from roar</p>
+					<p>XP Drop: 20 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>saddle</td>
+								<td>1 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Ravagers are inspired by Manticores, a creature with the head of a human, the body of a lion and a tail similar to porcupine quills.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "shulker">Shulker</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/shulker.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Shulkers are shelled block-shaped mobs found in the End. They stay stationary, attaching themselves to a block and blending in with their surroundings, and target nearby players. When they have low health or their anchor block is compromised, they teleport to a safer location and anchor themselves to a new block. They attack by shooting a guided projectile that targets nearby players, which will apply Levitation to their target upon contact.</p>
+					<p>Spawn Conditions: in end cities</p>
+					<p>Health: 30 hp (15 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 4 hp (2 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>shulker shell</td>
+								<td>50% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Shulkers were originally suppose to have active camouflage that change based on the surrounding blocks, but was scrapped because of the difficulty in coding it.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "silverfish">Silverfish</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/silverfish.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Silverfish are small annoying mobs found inside infested blocks. They often hide inside stone-based blocks until they have been disturbed or alerted. They attack players that broke their block or have come too close, hitting their target's legs and alerting nearby silverfish to come out of their blocks.</p>
+					<p>Spawn Conditions: from infested blocks in strongholds, igloo basements and mansions; from infested blocks in mountain biomes; silverfish spawners in strongholds</p>
+					<p>Health: 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 1 hp (0.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops: none </p>
+					<p style = "text-align:justify">Fun Fact: <br> A version of the silverfish known as "redstone bug" appeared in "Minecraft 2.0", an April Fool's Joke edition of the game.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "skeleton">Skeleton</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/skeleton.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Skeletons are common bow-wielding skeleton-based mobs found in dark places. They burn in daylight, sometimes wear armor, flee from wolves, and target players they see and mobs that hurt them. They attack by shooting arrows from their bow at range, strafing and dodging incoming attacks while doing so.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7-; in nether fortresses; skeleton spawners in dungeons</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 2.5 hp (1.25 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) - 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) from range</p>
+					<p>XP Drop: 5 XP + 1-3 XP if it has equipment worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>bone</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>arrow</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>naturally-spawned equipment worn</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+							<tr>
+								<td>skeleton skull</td>
+								<td>1 when killed by charged creeper</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> 89% of skeletons hold their bow with their right hand. This indicates that most skeletons are left eye dominant.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "slime">Slime</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/slime.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Slimes are varying-sized cubes that spawn in swamps and slime chunks. They randomly hop around and wander, searching for targets which are iron golems and players. They attack by randomly jumping at their target, hurting the latter in the process. When killed, they split into 2-4 smaller versions of themselves.</p>
+					<p>Spawn Conditions: on any solid block between y=50 to y=70 and light level of 7- in swamp biomes; below y=40 in slime chunks</p>
+					<table>
+						<tr>
+							<td></td>
+							<td>tiny</td>
+							<td>small</td>
+							<td>big</td>
+						</tr>
+						<tr>
+							<td>Health:</td>
+							<td>1 hp <br> (0.5 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>4 hp <br> (2 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>16 hp <br> (8 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+						</tr>
+						<tr>
+							<td>Damage:</td>
+							<td>0 hp <br> (0 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>2 hp <br> (1 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+							<td>4 hp <br> (2 x <img src = "../images/icons/normal.png" class = "heart">)</td>
+						</tr>
+						<tr>
+							<td>XP Drop:</td>
+							<td>1 XP</td>
+							<td>2 XP</td>
+							<td>4 XP</td>
+						</tr>
+						<tr>
+							<td>Loot Drop:</td>
+							<td>0-2 slimeballs when killed</td>
+							<td>none</td>
+							<td>none</td>
+						</tr>
+					</table>
+					<p style = "text-align:justify">Fun Fact: <br> Tiny slimes are the weakest mobs with only half a heart and no damage.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "stray">Stray</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/stray.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Strays are bow-wielding skeleton-based mobs found in cold biomes. They burn in daylight, sometimes wear armor, flee from wolves, and target players they see and mobs that hurt them. They attack by shooting arrows that inflict Slowness to their target from their bow at range, strafing and dodging incoming attacks.</p>
+					<p>Spawn Conditions: light level of 7- in snowy tundra, snowy mountain, ice spikes and frozen river biomes.</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 2.5 hp (1.25 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) - 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) from range</p>
+					<p>XP Drop: 5 XP + 1-3 XP if it has equipment worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>bone</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>arrow</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>arrow of slowness</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>naturally-spawned equipment worn</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The origins of stray come from a concept made by Jason Major during a game jam.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "vex">Vex</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/vex.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Vexes are small deadly flying mobs that are part of evoker's attacks. They can fly and phase through blocks, target villagers, wandering traders, iron golems and players, and begin to die after at most 2 minutes. When attacking, they turn red and lunge towards their target. Hurting a vex will cause all nearby vexes to target the player.</p>
+					<p>Spawn Conditions: summoned by evokers</p>
+					<p>Health: 14 hp (7 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 9 hp (4.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops: none</p>
+					<p style = "text-align:justify">Fun Fact: <br> Vexes are not considered undead mobs even though they act and look like ghosts.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "vindicator">Vindicator</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/vindicator.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Vindicators are axe-wielding illagers that spawn in woodland mansions and raids. They target villagers, wandering traders, iron golems and players. During raids, they sometimes spawn riding a ravager, actively pathfind to villages and kill targets they encounter, and celebrate when they do a successful raid. They attack by sprinting towards their target with their axe out, disabling shields and dealing massive damage. Hurting a vindicator will cause all nearby vindicators to target the player.</p>
+					<p>Spawn Conditions: in woodland mansions; during raids</p>
+					<p>Health: 24 hp (12 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 13 hp (6.5 x <img src = "../images/icons/normal.png" class = "heart">) when armed<br> 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) when unarmed</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>emeralds</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>iron axe</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>ominous banner</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Naming a vindicator "Johnny" will cause it to become aggressive towards most mobs. This is a reference to "The Shining".</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "witch">Witch</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/witch.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Witches are uncommon humanoid mobs that uses potions for offense and defense. They are resistant to harming and poison potions, evoker fangs and thorns. During raids, they support nearby pillagers by throwing splash potions of regeneration, and celebrate when they do a successful raid. They attack players using splash potions of slowness, poison, weakness and harming, and defend themselves with potions of water breathing, fire resistance, healing, and swiftness.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7-; in swamp huts; when a villager is struck by lightning; during raids</p>
+					<p>Health: 26 hp (13 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) from splash potion of harming <br> 1 hp (0.5 x <img src = "../images/icons/poison.png" class = "heart">) per 1.25 sec for at most 45 sec from splash potion of poison </p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>potion of healing, fire resistance, swiftness or water breathing</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+						</table>
+						<p>&nbsp up to 6 of the following items:</p>
+						<table>
+							<tr>
+								<td>glass bottle</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>glowstone dust</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>gunpowder</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>redstone</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>spider eye</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>glass bottle</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>glass bottle</td>
+								<td>12.5% chance of 0-2 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Witches are based on "Baba Yaga", a Slavic folklore about a witch living in a hut that is standing on chicken legs.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "witherSkeleton">Wither Skeleton</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/wither skeleton.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Wither skeletons are sword-wielding skeleton-based mobs found in nether fortresses. They are immune to fire and lava, flee from wolves, and target iron golems, baby turtles, piglins and players. They attack by sprinting towards their target and swinging their sword, dealing normal damage and wither damage.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7- in nether fortresses in groups of 4</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">) + 1 hp (0.5 x <img src = "../images/icons/wither.png" class = "heart">) per 2 sec for 10 sec</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>bone</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>coal</td>
+								<td>33.3% chance when killed</td>
+							</tr>
+							<tr>
+								<td>stone sword</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>wither skeleton skull</td>
+								<td>2.5% chance when killed or 100% chance when killed by charged creeper</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Wither skeletons are larger than their other skeleton counterparts, and cannot fit through 2-high holes.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "zoglin">Zoglin</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/zoglin.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Zoglins are zombified counterparts of hoglins. They are immune to fire and lava damage, and do not have the same weaknesses as their living counterpart. They are highly aggressive, targeting any entity nearby that is not a creeper nor a zoglin. They attack by flinging their target using their head.</p>
+					<p>Spawn Conditions: when a hoglin is outside the Nether dimension for more than 15 seconds</p>
+					<p>Health: 40 hp (20 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 0.5 hp (0.25 x <img src = "../images/icons/normal.png" class = "heart">) - 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>1-3 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The tusks of zoglins have slightly different textures, causing them to have separate textures for each tusk.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "zombie">Zombie</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/zombie.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Zombies are common undead humanoid mobs that spawn in the dark. They burn in daylight, sometimes wear armor, have farther detection range than other hostiles, can break down doors, and attack turtle eggs, baby turtles, villagers, wandering traders, iron golems and players. They attack nearby targets through melee combat, and when a zombie is hurt by the player, nearby zombies are alerted to target the player.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7- in groups of 4; when a husk drowns; during zombie sieges; zombie spawners in dungeons</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed as adult; 12 XP + 1-3 XP for every equipment worn when killed as baby</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>iron ingot, carrot, or potato</td>
+								<td>2.5% chance for one of the three to drop when killed</td>
+							</tr>
+							<tr>
+								<td>naturally-spawned equipment worn</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Zombies are one of the oldest hostile mobs that have not been removed.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "zombieVillager">Zombie Villager</p>
+				<div class = "mobPics">
+					<img src = "../images/hostiles/zombie villager.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Zombie villagers are zombified counterparts of villagers. They behave mostly the same with normal zombies, with the exception that they cannot be converted to drowned. They can be cured using a splash potion of weakness and a normal golden apple, which will convert them back to normal villagers. These converted villagers will offer large discounts to the player that cured them.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7-; in igloo basements; 50% chance when a villager is killed by a zombified mob</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every equipment worn when killed as adult; 12 XP when killed as baby</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>iron ingot, carrot, or potato</td>
+								<td>2.5% chance for one of the three to drop when killed</td>
+							</tr>
+							<tr>
+								<td>naturally-spawned equipment worn</td>
+								<td>8.5% chance when killed</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The rarest mob that can spawn in the game is "a left-handed, leader baby [zombie] villager nitwit chicken jockey that can pick up items, can't break doors, has full enchanted diamond gear, with level 20, an enchanted iron sword with level 16, on a slime chunk desert during Halloween, under specific conditions", which has an 4.3797e-75% chance to spawn on the worst-case scenario.</p>
+				</div>
+			</article>
+			
+		</section>
+		
+		<footer>
+			<!--support links-->
+			<!--sources are placed on a separate page because it makes the page cleaner, also for consistency-->
+			<div class = "contentSupport">
+				<p>
+					<a href = "support.html#author">about author</a> <br>
+					<a href = "support.html#disclaimer">content disclaimer</a> <br>
+					<a href = "support.html#hostiles">sources</a>
+				</p>
+			</div>
+			
+			<!--social media links-->
+			<div class = "contentSocials">
+				<a href = "https://new.reddit.com/user/MigzToGo/" target = "_blank" title = "my Reddit page"><div class = "reddit"></div></a>
+				<a href = "https://namemc.com/profile/MTR2.1" target = "_blank" title = "my NameMC page"><div class = "namemc"></div></a>
+				<a href = "https://www.facebook.com/julian.simbulan.14" target = "_blank" title = "my Facebook page"><div class = "facebook"></div></a>
+			</div>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MC Mobs at a Glance: Neutrals</title>
+
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Julian Migell M. Simbulan">
+		<meta name = "keywords" content = "HTML, CSS, JavaScript">
+		<meta name = "revised" content = "02-01-2021">
+		
+		<link rel = "icon" href = "../images/favicons/neutral-icon.ico" type = "image/gif">
+		<link rel = "stylesheet" href = "../css/style.css" type = "text/css">
+
+	</head>
+	
+	<body>
+		<!--sidebar-->
+		<aside class = "sidebar">
+			<!--page title-->
+			<img src = "../images/icons/neutral-icon.png" class = "mainIcon"> &nbsp <span class = "header">Neutrals</span>
+			<br>
+			<br>
+			<!--navigation list to other pages-->
+			<nav class = "navPages">
+				<a href = "../index.html" style = "position:absolute; left:44px">Home Page</a> <br>
+				<br>
+				<img src = "../images/icons/passive-icon.png" class = "miniIcon"><a href = "passives.html">Passives</a> <br>
+				<img src = "../images/icons/about-icon.png" class = "miniIcon"><a href = "about mobs.html">About Mobs</a> <br>
+				<img src = "../images/icons/hostile-icon.png" class = "miniIcon"><a href = "hostiles.html">Hostiles</a> <br>
+				<img src = "../images/icons/utility-icon.png" class = "miniIcon"><a href = "utility.html">Utility</a> <br>
+				<img src = "../images/icons/boss-icon.png" class = "miniIcon"><a href = "boss.html">Boss</a> <br>
+			</nav>
+			<br>
+			<!--navigation list to parts inside the page-->
+			<nav class = "navLocal" style = "height:215px">
+				<div>
+					<a href = "#neutralMobs">Neutral Mobs</a> <br>
+					<span>List of Neutral Mobs</span> <br>
+					&nbsp <a href = "#bee"> > Bee</a> <br>
+					&nbsp <a href = "#caveSpider"> > Cave Spider</a> <br>
+					&nbsp <a href = "#dolphin"> > Dolphin</a> <br>
+					&nbsp <a href = "#enderman"> > Enderman</a> <br>
+					&nbsp <a href = "#llama"> > Llama</a> <br>
+					&nbsp <a href = "#panda"> > Panda</a> <br>
+					&nbsp <a href = "#piglin"> > Piglin</a> <br>
+					&nbsp <a href = "#polarBear"> > Polar Bear</a> <br>
+					&nbsp <a href = "#spider"> > Spider</a> <br>
+					&nbsp <a href = "#wolf"> > Wolf</a> <br>
+					&nbsp <a href = "#zombifiedPiglin"> > Zombified Piglin</a> <br>
+				</div>
+			</nav>
+		</aside>
+		
+		<!--main part containing all the content-->
+		<section class = "mainContent">
+			<!--description of neutral mobs-->
+			<article>
+				<p class = "title" id = "neutralMobs">Neutral Mobs</p>
+				<video class = "media" autoplay muted controls loop>
+					<source src = "../mmfiles/neutral-mobs-showcase.mp4" type = "video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<p class = "desc">Neutral mobs are creatures that do not attack the player unless provoked by the player or triggered in some form. Most of them act passive when left alone by the player, and have triggers that vary for every mob.</p>	
+			</article>
+			
+			<!--all the neutral mobs-->
+			<article>
+				<p class = "title" id = "bee">Bee</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/bee.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Bees are small flying mobs commonly found in plains and warm forests. They live in bee nests and beehives, hover around and pollinate plants. They produce honey, which can be safely harvested from their home when a campfire is placed beneath it. When a bee is attacked, their home is destroyed or their honey is taken without smoking them, nearby bees become aggressive and sting the player once. They die 1 minute after stinging. They are attracted to flowers and can be bred using flowers.</p>
+					<p>Spawn Conditions: in bee nest in groups of 3, nests can spawn in variants of plains, oak forest and birch forest biomes</p>
+					<p>Health: 10 hp (5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) + 1 hp (0.5 x <img src = "../images/icons/poison.png" class = "heart">) every 1.25 sec for 10 sec</p>
+					<p>XP Drop: 1-3 XP when killed, 1-7 when bred</p>
+					<p>Loot Drops: none</p>
+					<p style = "text-align:justify">Fun Fact: <br> Bees are the first flying arthropods in the game, and the only arthropod that can exist in peaceful mode.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "caveSpider">Cave Spider</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/cave spider.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Cave spiders are small crawling arthropods that spawn in mineshafts. They have the ability to crawl up walls, and are immune to the slowness effect of cobwebs. They have varying behavior based on the surrounding light. When under daylight, they stay neutral, only attacking when attacked by the player. When they are in the darkness, they become aggressive, attacking the player with poison damage regardless of the new light level.</p>
+					<p>Spawn Conditions: cave spider spawners in mineshafts</p>
+					<p>Health: 12 hp (6 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) + 1 hp (0.5 x <img src = "../images/icons/poison.png" class = "heart">) per 1.25 sec for 7 sec</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>string</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>spider eye</td>
+								<td>33.3% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The volume of cave spiders is 147% larger than their hitbox.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "dolphin">Dolphin</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/dolphin.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Dolphins are mobs found in non-cold oceans. They occasionally leap out of the water for air, approach players in boats, and play with dropped items in the water. When a player is nearby them, the former get Dolphin's Grace, which is a form of speed boost, and feeding dolphins with fish will make the dolphin lead the player to a shipwreck, buried treasure, or ocean ruin. Hitting a dolphin will cause nearby dolphins to attack the player until the player is dead.</p>
+					<p>Spawn Conditions: between y=45 and y=63 in non-cold ocean biomes in pods of 3-5</p>
+					<p>Health: 10 hp (5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 1-3 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>raw cod</td>
+								<td>0-1 when killed w/o fire</td>
+							</tr>
+							<tr>
+								<td>cooked cod</td>
+								<td>0-1 when killed w/ fire</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Dolphin sounds are recorded using real dolphins in the Kolmården Wildlife Park.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "enderman">Enderman</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/enderman.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Endermen are tall humanoid creatures found in all dimensions, with the End dimension being their home. They teleport around, actively attack endermites, and pick up certain blocks randomly. They take damage in contact with water, and are provoked when they are hit or when the player looks at their eyes. When an enderman is provoked, it opens its mouth and shake violently, teleporting and attacking the player until the latter is dead, or the enderman is distracted by fire or water.</p>
+					<p>Spawn Conditions: on any solid block with light level of 7- in the Overworld; in warped forests, nether wastes and soul sand valleys in the nether; on any solid block with light level of 11- in the end dimension</p>
+					<p>Health: 40 hp (20 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 7 hp (3.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>ender pearl</td>
+								<td>50% chance when killed</td>
+							</tr>
+							<tr>
+								<td>block being held</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The enderman is a subtle reference to the famous creepypasta "Slenderman".</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "llama">Llama</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/llama.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Llamas are tamable mobs that can be used for transporting items. They have varying colors and health, and tamed llamas can equip carpets and chests. When a llama is hit by a player, the llama would spit once at the player. They are tamed by mounting them repeatedly until they calm down. Tamed llamas can be bred using hay bales.</p>
+					<p>Spawn Conditions: light level of 7+ in savanna biomes in herds of 4; light level of 7+ in mountain biomes in herds of 4-6</p>
+					<p>Health: 15 hp (7.5 x <img src = "../images/icons/normal.png" class = "heart">) - 30 hp (15 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 1 hp (0.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 1-3 XP when killed, 1-7 when bred</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>leather</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>carpet being worn</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>chest and contents</td>
+								<td>1 when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Wandering traders are accompanied by a special type of llama that have special carpets and protect the wandering trader.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "panda">Panda</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/panda.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Pandas are large bamboo-eating mobs that can be found in jungles. They come in many varieties and personalities that determine their behavior. Normal pandas and brown pandas do not do anything special. Lazy pandas lie on their back and move slowly. Worried pandas avoid players and most hostile mobs, and playful pandas roll around. Weak pandas sneeze more often and aggressive pandas are slow but deadly. When hit, the panda will hit the player once and alert nearby aggressive pandas. If an aggressive panda is hit by the player or is alerted, the panda would hit the player until the player is dead. All pandas are attracted to bamboo, eat cake and bamboo, and are bred using bamboo.</p>
+					<p>Spawn Conditions: on grass blocks with light level of 9+ and in jungle biomes</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 1-3 XP when killed, 1-7 when bred</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>bamboo</td>
+								<td>1 when killed</td>
+							</tr>
+							<tr>
+								<td>slimeball</td>
+								<td>0.1% chance when a baby panda sneezes</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Panda sounds are recorded using real pandas in Guangzhou, China.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "piglin">Piglin</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/piglin.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Piglins are gold-loving humanoids found in the nether. They can open doors, hunt hoglins and dance, and barter with players. They are attracted to gold, and avoid zombified piglins and soul fire items. Dropping gold near piglins will make them inspect the gold and drop random items in return. Piglins will attack a player if the player is not wearing gold, mined gold nearby, opened a nearby container, or hit a nearby piglin. Piglins will stay aggressive for 30 seconds.</p>
+					<p>Spawn Conditions: light level of 11- in nether wastes and crimson forests biomes in groups of 4; light level of 11- in bastion remnants in groups of 4</p>
+					<p>Health: 16 hp (8 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">) - 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) when ranged <br> 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) - 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">) when melee</p>
+					<p>XP Drop: 5 XP + 1-3 XP for every armor piece worn when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>crossbow</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>golden sword</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>golden helmet</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>golden chestplate</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>golden leggings</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>golden boots</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Before the addition of piglins and zombified piglins, the zombie pigmen was the humanoid mob that dominated the nether dimension.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "polarBear">Polar Bear</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/polar bear.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Polar bears are large mobs that live in icy biomes. They often spawn in families, with 1 parent and multiple cubs, and are very defensive. When a polar bear cub is approached by a player, or an adult polar bear is hurt by a player, all nearby adult polar bears will attack the player until the latter is dead.</p>
+					<p>Spawn Conditions: light level of 7+ in snowy tundra, snowy mountain, ice spike, frozen river, deep-frozen ocean and regular frozen ocean biomes in groups of up to 2</p>
+					<p>Health: 30 hp (15 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 1-3 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>raw cod</td>
+								<td>75% chance of 0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>raw salmon</td>
+								<td>25% chance of 0-2 when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Polar bears were added after the son of one of the developers named Jeb was born. The name of Jeb's son is Bj<span>&#246</span>rn, which is Swedish for "bear".</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "spider">Spider</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/spider.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Spiders are large crawling arthropods that spawn in the dark. They have the ability to crawl up walls, and are immune to the slowness effect of cobwebs. They have varying behavior based on the surrounding light level. When the light level is above 11, they stay neutral, only attacking when attacked by the player. When the light level is 11-, they become aggressive, attacking players and iron golems on sight.</p>
+					<p>Spawn Conditions: on solid blocks with light level of 7- in groups of 1-4; spider spawners in dungeons</p>
+					<p>Health: 16 hp (8 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: 2 hp (1 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 5 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>string</td>
+								<td>0-2 when killed</td>
+							</tr>
+							<tr>
+								<td>spider eye</td>
+								<td>33.3% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Spiders have a 1% chance to spawn with a skeleton riding it.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "wolf">Wolf</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/wolf.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Wolves are tamable mobs found in cold forests. They hunt and attack skeleton-like mobs, foxes, sheep, baby turtles, and rabbits. When a wolf is hurt by a player, all surrounding wolves will attack the player until the latter is dead. Wolves can be tamed using bones and bred using meat. When tamed, wolves get a collar and become passive to their owner and the mobs listed before. They still hunt skeleton-based mobs, and mobs or players that hurt their owner.</p>
+					<p>Spawn Conditions: in forests, taiga, giant tree taigas and snowy taiga biomes in packs of 4</p>
+					<p>Health: <br> 8 hp (4 x <img src = "../images/icons/normal.png" class = "heart">) when wild <br> 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">) when tamed</p>
+					<p>Damage: 4 hp (2 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>XP Drop: 1-3 XP when killed, 1-7 when bred</p>
+					<p>Loot Drops: none</p>
+					<p style = "text-align:justify">Fun Fact: <br> Wolves were the first tamable mobs that can passively follow around the player.</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "zombifiedPiglin">Zombified Piglin</p>
+				<div class = "mobPics">
+					<img src = "../images/neutrals/zombified piglin.png" width = "100%">
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">Zombified piglins are zombified counterparts of piglins that are commonly found in the Nether. They are immune to fire and lava damage, and trample turtle eggs nearby. When a piglin is hurt by a player, all nearby piglins will target and attack the player until the player is dead or at most 27 minutes of avoidance have passed.</p>
+					<p>Spawn Conditions: light level of 11- in nether wastes, nether fortresses, crimson forests and lava oceans; near nether portals in the Overworld; when a pig is struck by lightning; when a piglin is outside the Nether dimension for more than 15 seconds</p>
+					<p>Health: 20 hp (10 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 12 hp (6 x <img src = "../images/icons/normal.png" class = "heart">) when armed<br> 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) when unarmed</p>
+					<p>XP Drop: 5 XP when killed as adult; 12 XP when killed as baby</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>rotten flesh</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>gold nugget</td>
+								<td>0-1 when killed</td>
+							</tr>
+							<tr>
+								<td>gold ingot</td>
+								<td>2.5% when killed</td>
+							</tr>
+							<tr>
+								<td>golden sword</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>warped fungus on a stick</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>crossbow</td>
+								<td>8.5% chance when killed w/ this item equipped</td>
+							</tr>
+							<tr>
+								<td>picked-up equipment worn</td>
+								<td>100% chance when killed</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> Zombified piglins are the only mob to have name changed after their original release.</p>
+				</div>
+			</article>
+			
+		</section>
+		
+		<footer>
+			<!--support links-->
+			<!--sources are placed on a separate page because it makes the page cleaner, also for consistency-->
+			<div class = "contentSupport">
+				<p>
+					<a href = "support.html#author">about author</a> <br>
+					<a href = "support.html#disclaimer">content disclaimer</a> <br>
+					<a href = "support.html#neutrals">sources</a>
+				</p>
+			</div>
+			
+			<!--social media links-->
+			<div class = "contentSocials">
+				<a href = "https://new.reddit.com/user/MigzToGo/" target = "_blank" title = "my Reddit page"><div class = "reddit"></div></a>
+				<a href = "https://namemc.com/profile/MTR2.1" target = "_blank" title = "my NameMC page"><div class = "namemc"></div></a>
+				<a href = "https://www.facebook.com/julian.simbulan.14" target = "_blank" title = "my Facebook page"><div class = "facebook"></div></a>
+			</div>
+		</footer>
+		
+	</body>
+</html>

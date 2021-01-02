@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MC Mobs at a Glance: About Mobs</title>
+
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Julian Migell M. Simbulan">
+		<meta name = "keywords" content = "HTML, CSS, JavaScript">
+		<meta name = "revised" content = "02-01-2021">
+		
+		<link rel = "icon" href = "../images/favicons/about-icon.ico" type = "image/gif">
+		<link rel = "stylesheet" href = "../css/style.css" type = "text/css">
+		
+		<!--local stylesheet for styles specific to this page only-->
+		<style>
+			.attributeIcon {
+				width: 28px;
+				position: relative;
+				top: 5px;
+			}
+		
+		</style>
+
+	</head>
+	
+	<body>
+		<!--sidebar-->
+		<aside class = "sidebar">
+			<!--page title-->
+			<img src = "../images/icons/about-icon.png" class = "mainIcon"> &nbsp <span class = "header">About Mobs</span>
+			<br>
+			<br>
+			<!--navigation list to other pages-->
+			<nav class = "navPages">
+				<a href = "../index.html" style = "position:absolute; left:44px">Home Page</a> <br>
+				<br>
+				<img src = "../images/icons/passive-icon.png" class = "miniIcon"><a href = "passives.html">Passives</a> <br>
+				<img src = "../images/icons/neutral-icon.png" class = "miniIcon"><a href = "neutrals.html">Neutrals</a> <br>
+				<img src = "../images/icons/hostile-icon.png" class = "miniIcon"><a href = "hostiles.html">Hostiles</a> <br>
+				<img src = "../images/icons/utility-icon.png" class = "miniIcon"><a href = "utility.html">Utility</a> <br>
+				<img src = "../images/icons/boss-icon.png" class = "miniIcon"><a href = "boss.html">Boss</a> <br>
+			</nav>
+			<br>
+			<!--navigation list to parts inside the page-->
+			<nav class = "navLocal" style = "height:160px">
+				<div>
+					<a href = "#mobs">Mobs</a> <br>
+					<a href = "#mobAttributes">Mob Attributes</a> <br>
+					&nbsp <a href = "#spawnConditions"> > Spawn Conditions</a> <br>
+					&nbsp <a href = "#behavior"> > Behavior</a> <br>
+					&nbsp <a href = "#health"> > Health</a> <br>
+					&nbsp <a href = "#damage"> > Damage</a> <br>
+					&nbsp <a href = "#xpDrop"> > XP Drop</a> <br>
+					&nbsp <a href = "#lootDrops"> > Loot Drops</a> <br>
+				</div>
+			</nav>
+		</aside>
+		
+		<!--main part containing all the content-->
+		<section class = "mainContent">
+			<!--definition of mobs-->
+			<article>
+				<p class = "title" id = "mobs">Mobs</p>
+				<img src = "../images/home and about/mobs.jpg" class = "media">
+				<p class = "desc">Mobs, or mobiles, are living entities that have AI and can interact with their environment and other mobs in a similar way as the player can. All mobs comprise of different attributes with varying values that make them unique.</p>	
+			</article>
+			
+			<!--list of mob attributes-->	
+			<article>
+				<p class = "title" id = "mobAttributes">Mob Attributes</p>
+				<div>
+					<img src = "../images/icons/spawn-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "spawnConditions">Spawn Conditions</span>
+					<p class = "desc">Mobs spawn in the world based on multiple parameters. Some spawn based on the light level of the location being attempted to spawn on. For instance, many hostile mobs spawn at a light level of 7 or below. Another spawn condition is the biome and dimension where the mob can spawn in. Certain mobs can only spawn in snowy biomes, and some mobs can only be found in the nether. Aside from those, some mobs spawn based on the presence of other mobs, including the player. The iron golem, for example, can spawn when 3 villagers nearby are near a zombie. Special variants of some mobs can spawn when certain environmental events occur, like the horsemen of the apocalypse, which can spawn during heavy thunderstorms. Many mobs can spawn only on certain blocks, and some mobs cannot spawn in certain difficulties, so for the sake of this website, we will use normal difficulty.</p>
+				</div>
+				<br>
+				<div>
+					<img src = "../images/icons/behavior-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "behavior">Behavior</span>
+					<p class = "desc">All mobs have an artificial intelligence that tell how each mob would behave on certain situations. They react differently to their environment and their interactions with it. For instance, striders are attracted to lava, while others would either avoid it, or are unaffected by it. Another instance is behavior against the sun. Some mobs burn when they are exposed to the sun, so they try their best to go to shade. The most important aspect of their behavior is their behavior towards players. Some would run away from the player, some can be tamed, and some would even engage in combat with the player. This portion plays a huge role on their mob type.</p>
+				</div>
+				<br>
+				<div>
+					<img src = "../images/icons/health-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "health">Health</span>
+					<p class = "desc">All mobs can be hurt either by the environment, the player, or even other mobs. As to how much damage they can tolerate before they die is based on their health. Health is usually measured in health points, which is one half-heart, but full hearts (<img src = "../images/icons/normal.png" class = "heart">) can also be used to measure health. Health can be affected by armor and special items like potions in various ways, from reducing the amount of health lost to having the mob regenerate health over time.</p>
+				</div>
+				<br>
+				<div>
+					<img src = "../images/icons/damage-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "damage">Damage</span>
+					<p class = "desc">Many mobs deal damage to other mobs in a variety of ways and magnitudes. Some use melee combat, others use projectiles from afar, some may use potions and others may use explosives. There are 4 types of damage mobs can deal; normal damage (<img src = "../images/icons/normal.png" class = "heart">), poison damage (<img src = "../images/icons/poison.png" class = "heart">), fire damage (<img src = "../images/icons/fire.png" class = "heart">), and wither damage (<img src = "../images/icons/wither.png" class = "heart">). Normal damage is the damage that is dealt when a mob attacks the player. It simply subtracts the player's health in that instance. Poison damage is damage that is dealt overtime until the player is left to just 1 hp (0.5 x <img src = "../images/icons/normal.png" class = "heart">) or the poison effect runs out of time. This is quite dangerous because it leaves the player vulnerable to being killed with 1 hit. Fire damage is damage that is dealt overtime until the player is dead or the fire is taken out by itself or by water. Wither damage is damage that is dealt overtime until the player is dead or the wither effect runs out of time. These two are very dangerous because they can kill the player even after the mob that dealt them is dead. Both poison and wither effect can be removed by drinking milk, and fire damage can be removed by water. The actual damage they deal can vary per difficulty and the armor worn by the casualty, but for the sake of this website, we will use damage from normal difficulty and neglect armor entirely.</p>
+				</div>
+				<br>
+				<div>
+					<img src = "../images/icons/xp-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "xpDrop">XP Drop</span>
+					<p class = "desc">Experience is something the player accumulates from killing mobs and other environmental interactions. It's used for enchanting, repairing, and merging tools, weapons, and armor. The amount of XP mobs drop vary from mob to mob. Some may drop no experience at all, while others can drop 12,000 experience. Some mobs are farmed for XP by taking advantage of their spawning mechanism and making complicated machines that benefit from this. Note that in order for a mob to drop XP, a player or their pet must have killed it.</p>
+				</div>
+				<br>
+				<div>
+					<img src = "../images/icons/loot-icon.png" class = "attributeIcon"> &nbsp
+					<span class = "subtitle" id = "lootDrops">Loot Drops</span>
+					<p class = "desc">Many of the mobs drop loot when they die, which may be unique to each one. For some examples, zombies drop rotten flesh, skeletons drop bones, spiders drop string, sheep drop wool and mutton, and many more. Many of the loots dropped can sometimes be found in chests across the world, but sometimes there are specific items only obtainable from the mob itself. For instance, the nether star, which can only be obtained from withers. The amount and rate they drop these items may be randomized, so it cannot be guaranteed that a mob will drop the same thing all the time. This can be modified using weapons enchanted with looting. For the sake of this website, we will not take into account enchantments.</p>
+				</div>
+			</article>
+		</section>
+		
+		<footer>
+			<!--support links-->
+			<!--sources are placed on a separate page because it makes the page cleaner, also for consistency-->
+			<div class = "contentSupport">
+				<p>
+					<a href = "support.html#author">about author</a> <br>
+					<a href = "support.html#disclaimer">content disclaimer</a> <br>
+					<a href = "support.html#aboutMobs">sources</a>
+				</p>
+			</div>
+			
+			<!--social media links-->
+			<div class = "contentSocials">
+				<a href = "https://new.reddit.com/user/MigzToGo/" target = "_blank" title = "my Reddit page"><div class = "reddit"></div></a>
+				<a href = "https://namemc.com/profile/MTR2.1" target = "_blank" title = "my NameMC page"><div class = "namemc"></div></a>
+				<a href = "https://www.facebook.com/julian.simbulan.14" target = "_blank" title = "my Facebook page"><div class = "facebook"></div></a>
+			</div>
+		</footer>
+		
+	</body>
+</html>

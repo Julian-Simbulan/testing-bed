@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MC Mobs at a Glance: Boss</title>
+
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Julian Migell M. Simbulan">
+		<meta name = "keywords" content = "HTML, CSS, JavaScript">
+		<meta name = "revised" content = "02-01-2021">
+		
+		<link rel = "icon" href = "../images/favicons/boss-icon.ico" type = "image/gif">
+		<link rel = "stylesheet" href = "../css/style.css" type = "text/css">
+
+	</head>
+	
+	<body>
+		<!--sidebar-->
+		<aside class = "sidebar">
+			<!--page title-->
+			<img src = "../images/icons/boss-icon.png" class = "mainIcon"> &nbsp <span class = "header">Boss</span>
+			<br>
+			<br>
+			<!--navigation list to other pages-->
+			<nav class = "navPages">
+				<a href = "../index.html" style = "position:absolute; left:44px">Home Page</a> <br>
+				<br>
+				<img src = "../images/icons/passive-icon.png" class = "miniIcon"><a href = "passives.html">Passives</a> <br>
+				<img src = "../images/icons/neutral-icon.png" class = "miniIcon"><a href = "neutrals.html">Neutrals</a> <br>
+				<img src = "../images/icons/hostile-icon.png" class = "miniIcon"><a href = "hostiles.html">Hostiles</a> <br>
+				<img src = "../images/icons/utility-icon.png" class = "miniIcon"><a href = "utility.html">Utility</a> <br>
+				<img src = "../images/icons/about-icon.png" class = "miniIcon"><a href = "about mobs.html">About Mobs</a> <br>
+			</nav>
+			<br>
+			<!--navigation list to parts inside the page-->
+			<nav class = "navLocal" style = "height:75px">
+				<div>
+					<a href = "#bossMobs">Boss Mobs</a> <br>
+					<span>List of Boss Mobs</span> <br>
+					&nbsp <a href = "#enderDragon"> > Ender Dragon</a> <br>
+					&nbsp <a href = "#wither"> > Wither</a> <br>
+				</div>
+			</nav>
+		</aside>
+		
+		<!--main part containing all the content-->
+		<section class = "mainContent">
+			<!--description of boss mobs-->
+			<article>
+				<p class = "title" id = "bossMobs">Boss Mobs</p>
+				<video class = "media" autoplay muted controls loop>
+					<!--don't judge my skills-->
+					<!--fighting the wither is hard ;-; -->
+					<source src = "../mmfiles/boss-mobs-showcase.mp4" type = "video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<p class = "desc">Boss mobs are special creatures that are more powerful and dangerous than any other mob. They do not spawn randomly, and approaching them causes a health bar to appear on top of the player's screen. They grant bountiful rewards when defeated.</p>	
+			</article>
+			
+			<!--all the boss mobs-->
+			<article>
+				<p class = "title" id = "enderDragon">Ender Dragon</p>
+				<div class = "mobPics">
+					<img src = "../images/boss/ender dragon.png" width = "100%">
+					<figure>
+						<img src = "../images/boss/ender dragon instructions.png" width = "100%">
+						<figcaption>configuration for resummoning the ender dragon</figcaption>
+					</figure>
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">The ender dragon is a giant dragon found in the End dimension, and is often considered as the end-goal of Minecraft playthroughs. She randomly flies around the middle of the main End island, being healed by 10 end crystals on top of obsidian towers, and destroying any block along her way that is not bedrock, obsidian, iron bars nor end stone. She deals different types of attacks, like flicking the player up a few dozen blocks, shooting fireballs with lingering damage, breathing out a deadly purple cloud, and flapping her wings to knockback nearby mobs. Once defeated for the first time, the bedrock structure in the middle opens, which upon entering plays a cutscene and teleports the player to the Overworld. She can be resummoned to be defeated another time. Everytime she dies, an end gateway portal appears near the edge of the End island.</p>
+					<p>Spawn Conditions: initially spawned in the End; resummoned by placing 4 end crystals on the edges of the bedrock structure</p>
+					<p>Health: 200 hp (100 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 10 hp (5 x <img src = "../images/icons/normal.png" class = "heart">) from melee <br> 5 hp (2.5 x <img src = "../images/icons/normal.png" class = "heart">) from wings <br> 3 hp (1.5 x <img src = "../images/icons/normal.png" class = "heart">) per sec from dragon's breath <br> 6 hp (3 x <img src = "../images/icons/normal.png" class = "heart">) per sec from dragon fireball</p>
+					<p>XP Drop: 12,000 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>dragon egg</td>
+								<td>1 when killed, placed on top of bedrock structure</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The name of the ender dragon is "Jean".</p>
+				</div>
+			</article>
+			
+			<article>
+				<p class = "title" id = "wither">Wither</p>
+				<div class = "mobPics">
+					<img src = "../images/boss/wither.png" width = "100%">
+					<figure>
+						<img src = "../images/boss/wither instructions.png" width = "100%">
+						<figcaption>block configuration for summoning a wither</figcaption>
+					</figure>
+				</div>
+				<div class = "mobInfo">					
+					<p style = "text-align:justify">The wither boss is a large 3-headed mob that can be summoned anywhere by building a T-shape with soul sand and placing 3 wither skeleton skulls above the T. Upon being summoned, the wither is immune to damage for a few seconds, before exploding and being active. It is immune to fire and drowning damage, actively kills all nearby mobs except undead mobs and ghasts by shooting skulls at them, and break any block it flies through except obsidian and bedrock. When the wither's health is below 50%, it also becomes immune to projectiles. Upon dying it drops a nether star, a useful item that can only be obtained from the wither.</p>
+					<p>Spawn Conditions: built by player</p>
+					<p>Health: 300 hp (150 x <img src = "../images/icons/normal.png" class = "heart">), passive regeneration of 1 hp (0.5 x <img src = "../images/icons/normal.png" class = "heart">) per sec until it reaches 300 hp (150 x <img src = "../images/icons/normal.png" class = "heart">)</p>
+					<p>Damage: <br> 96 hp (48 x <img src = "../images/icons/normal.png" class = "heart">) at most upon spawning <br> 8 hp (4 x <img src = "../images/icons/wither.png" class = "heart">) + 1 hp (0.5 x <img src = "../images/icons/wither.png" class = "heart">) every 1 sec for 10 sec</p>
+					<p>XP Drop: 50 XP when killed</p>
+					<p>Loot Drops:</p>
+						<table>
+							<tr>
+								<td>nether star</td>
+								<td>1 when killed</td>
+							</tr>
+							<tr>
+								<td>wither rose</td>
+								<td>1 when the wither's target is killed, placed on the target's location</td>
+							</tr>
+						</table>
+					<p style = "text-align:justify">Fun Fact: <br> The name of the wither boss is "Simmons".</p>
+				</div>
+			</article>
+			
+		</section>
+		
+		<footer>
+			<!--support links-->
+			<!--sources are placed on a separate page because it makes the page cleaner, also for consistency-->
+			<div class = "contentSupport">
+				<p>
+					<a href = "support.html#author">about author</a> <br>
+					<a href = "support.html#disclaimer">content disclaimer</a> <br>
+					<a href = "support.html#boss">sources</a>
+				</p>
+			</div>
+			
+			<!--social media links-->
+			<div class = "contentSocials">
+				<a href = "https://new.reddit.com/user/MigzToGo/" target = "_blank" title = "my Reddit page"><div class = "reddit"></div></a>
+				<a href = "https://namemc.com/profile/MTR2.1" target = "_blank" title = "my NameMC page"><div class = "namemc"></div></a>
+				<a href = "https://www.facebook.com/julian.simbulan.14" target = "_blank" title = "my Facebook page"><div class = "facebook"></div></a>
+			</div>
+		</footer>
+		
+	</body>
+</html>
