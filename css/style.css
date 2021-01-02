@@ -1,0 +1,317 @@
+/*universal technicals*/
+@font-face {
+	font-family: Bahn;
+	src: url(BAHNSCHRIFT.ttf);
+}
+
+* {
+	font-family: "Bahnschrift Light", Bahn, Arial, Sans-Serif;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 10px 10px 8px #000000;
+	scrollbar-width: thin;
+	scrollbar-color: #070708 #181819;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: #181819;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #070708;
+}
+
+@keyframes fadeIn {
+	from {opacity: 0}
+	to {opacity: 1}
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+body *{
+	animation-name: fadeIn;
+	animation-duration: 0.45s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 0s;
+}
+
+body {
+	background-color: #181819;
+}
+
+footer {
+	font-size: 20px;
+	font-stretch: semi-condensed;
+}
+
+.heart {
+	height: 18px;
+	position: relative;
+	top: 3px;
+}
+
+/*everything in the side panel area*/
+.mainIcon {
+	width: 50px;
+	position: relative;
+	top: 10px;
+	box-shadow: 10px 10px 20px #000000;
+	z-index: 1;
+}
+
+.header {
+	font-size: 40px;
+	position: relative;
+	z-index: 2;
+	line-height:45px;
+}
+
+.navPages {
+	font-size: 20px;
+}
+
+.navPages a {
+	position: relative;
+	z-index: 2;
+	left: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	transition: padding-left 0.3s;
+}
+
+.navPages a:hover {
+	padding-left: 10px;
+}
+
+.navLocal {
+	font-size: 15px;
+	overflow: auto;
+	direction: rtl;
+}
+
+.navLocal div {
+	direction: ltr;
+}
+
+.navLocal a, footer p a{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	transition: padding-left 0.3s;
+}
+
+.navLocal a:hover {
+	padding-left: 8px;
+}
+
+.miniIcon {
+	width: 24px;
+	position: relative;
+	left: 10px;
+	top: 4px;
+	box-shadow: 10px 10px 20px #000000;
+	z-index: 1;
+}
+
+@keyframes sideSlide {
+	from {left: -40%}
+	to {left: 2%}
+}
+
+.sidebar {
+	width: 25%;
+	position: fixed;
+	left: 2%;
+	top: 2%;
+	bottom: 80px;
+	overflow: auto;
+	z-index: 2;
+}
+
+.sidebar, .contentSupport p{
+	animation-name: sideSlide;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 0s;
+}
+
+/*everything at the bottom area*/
+
+@keyframes slideUp{
+	from {bottom: -100%}
+	to {bottom: 1vw}
+}
+
+.mainSupport p, .mainSocials{
+	animation: slideUp 1s ease-out 1 normal 0s;
+}
+
+.contentSocials{
+	animation: slideUp 0.5s ease-out 1 normal 0s;
+}
+
+.mainSocials, .contentSocials{
+	position: fixed;
+	right: 0px;
+	bottom: 1vw;
+	z-index: 5;
+	margin: 0px;
+}
+
+.facebook, .namemc, .reddit {
+	background-image: url('../images/icons/socials.png');
+	background-size: 300%;
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	bottom: 0px;
+	box-shadow: 10px 10px 20px #000000;
+}
+
+.facebook {
+	background-position: 0px 0px;
+	right: 20px;
+}
+
+.facebook:hover {
+	background-position: 0px -45px;
+}
+
+.namemc {
+	background-position: -45px 0px;
+	right: 71px;
+}
+
+.namemc:hover {
+	background-position: -45px -45px;
+}
+
+.reddit {
+	background-position: -90px 0px;
+	right: 122px;
+}
+
+.reddit:hover {
+	background-position: -90px -45px;
+}
+
+.contentSupport {
+	position: fixed;
+	left: 2%;
+	bottom: 1vw;
+}
+
+.contentSupport p{
+	margin-bottom: 0px;
+}
+
+.contentSupport p a:hover {
+	padding-left: 10px;
+}
+
+/*everything in the main content area*/
+.mainContent {
+	max-width: max(600px, 45vw);
+	margin: 5% 0.5% 10% 28%;
+	z-index: 2;
+}
+
+.mainContent a {
+	text-decoration: underline;
+}
+
+.mainContent > article {
+	background-color: #0d0d0e;
+	padding: 22px 1.5vw 25px 1.5vw;
+	border-radius: 15px;
+	margin-top: 18px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 10px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);
+	overflow: auto;
+}
+
+.media {
+	width: min(100%, 700px);
+}
+
+.title{
+	font-size: 30px;
+	text-shadow: none;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.subtitle{
+	font-size: 25px;
+	text-shadow: none;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.desc{
+	font-size: 20px;
+	font-stretch: semi-condensed;
+	text-shadow: none;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.mobPics {
+	width: 40%;
+	float: left;
+	padding-top: 10px;
+}
+
+.mobInfo {
+	width: 59%;
+	float: right;
+	/*background-color: #00ff00;*/
+}
+
+
+.mobInfo p, .mobInfo span, .mobInfo th, .mobInfo td, .mobPics figcaption{
+	font-stretch: semi-condensed;
+	text-shadow: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mobInfo p, .mobInfo span {
+	font-size: 16px;
+}
+
+.mobInfo th, .mobInfo td, .mobPics figcaption{
+	font-size: 14px;
+}
+
+/*standard styling for these structures*/
+
+figure {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	padding: 3px;
+	text-align: left;
+	table-layout: fixed;
+}
+
+table {
+	width: 100%;
+}

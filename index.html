@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MC Mobs at a Glance: Home</title>
+
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Julian Migell M. Simbulan">
+		<meta name = "keywords" content = "HTML, CSS, JavaScript">
+		<meta name = "revised" content = "02-01-2021">
+		
+		<link rel = "icon" href = "images/favicons/mobs-icon.ico" type = "image/gif">
+		<link rel = "stylesheet" href = "css/style.css" type = "text/css">
+		
+		<!--local stylesheet for styles specific to this page only-->
+		<style>
+			
+			@keyframes slidelist{
+				from {left: -2000px;}
+				to {left: 8px;}
+			}
+			
+			@keyframes slideIcons{
+				from {left: -2000px;}
+				to {left: 3px;}
+			}
+			
+			@keyframes lgIcon{
+				from {top:-1000px;}
+				to {top:0px;}
+			}
+			
+			@keyframes lgTitle{
+				from {bottom:-1000px;}
+				to {bottom:0px;}
+			}
+			
+			@keyframes lgSub{
+				from {right:-3000px;}
+				to {right:0px;}
+			}
+			
+			.icons {
+				width: 38px;
+				position: relative;
+				left: 3px;
+				top: 8px;
+				box-shadow: 10px 10px 20px #000000;
+				z-index: 1;
+			}
+			
+			.mainList a{
+				font-size: 25px;
+				position: relative;
+				left: 8px;
+				z-index: 2;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				transition: padding 0.3s;
+			}
+			
+			.mainList a {
+				animation: slidelist 1.5s ease-out 1 normal;
+			}
+			
+			.mainList img {
+				animation: slideIcons 1.5s ease-out 1 normal;
+			}
+			
+			#logoIcon{
+				animation: lgIcon 1s ease-out 1 normal 0s;
+			}
+			
+			#logoTitle{
+				animation: lgTitle 1s ease-out 1 normal 0s;
+			}
+			
+			#logoSubtitle{
+				animation: lgSub 1s ease-out 1 normal 0s;
+			}
+	
+			.mainList a:hover {
+				padding-left: 25px;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body style = "overflow-x: hidden; margin: 10% 0px auto 1%">
+		
+		<!--logo group-->
+		<section style = "position:relative; right:100px; height:250px; width:270px; display:inline-block; margin: 2% -120px 20px max(100px,12%);" id = "logoIcon">
+			<img src = "images/home and about/mobs-logo.png" width = "230px" style = "position:relative; top:0px; left:0px; z-index:2;">
+			<img src = "images/home and about/mobs-logo.png" width = "230px" style = "position:absolute; top:15px; left:15px ;z-index:1; filter:blur(9px) brightness(0%); -webkit-filter:blur(9px) brightness(0%)">
+		</section>
+		
+		<!--webpage title + small explanation-->
+		<section style = "position:relative; top:-20px; width:420px; height:250px; display:inline-block; margin: 2% 0px 0px 0px;">
+			<p style = "font-size:45px; margin-top:0px; margin-bottom:5px; position:relative" id = "logoTitle">Minecraft's <br> Mobs at a Glance</p>
+			<p style = "font-size:16px; margin-top:0px; margin-bottom:0px; position:relative" id = "logoSubtitle">Minecraft has a variety of mobs, each with their own behavior. This website gives information about Minecraft's mobs, as well as summarizes all the mobs in-game based on their mob type.</p>
+		</section>
+		
+		<!--nav list to other pages-->
+		<nav class = "mainList" style = "position:relative; float:left; margin: 0px 0px 60px 0px; width:max(255px, 25%);">
+			<img src = "images/icons/about-icon.png" class = "icons" style = "animation-delay:-0.7s"> <a href = "htdocs/about mobs.html" style = "animation-delay:-0.8s">About mobs</a> <br>
+			<img src = "images/icons/passive-icon.png" class = "icons" style = "animation-delay:-0.6s"> <a href = "htdocs/passives.html" style = "animation-delay:-0.7s">Passives</a> <br>
+			<img src = "images/icons/neutral-icon.png" class = "icons" style = "animation-delay:-0.5s"> <a href = "htdocs/neutrals.html" style = "animation-delay:-0.6s">Neutrals</a> <br>
+			<img src = "images/icons/hostile-icon.png" class = "icons" style = "animation-delay:-0.4s"> <a href = "htdocs/hostiles.html" style = "animation-delay:-0.5s">Hostiles</a> <br>
+			<img src = "images/icons/utility-icon.png" class = "icons" style = "animation-delay:-0.3s"> <a href = "htdocs/utility.html" style = "animation-delay:-0.4s">Utility</a> <br>
+			<img src = "images/icons/boss-icon.png" class = "icons" style = "animation-delay:-0.2s"> <a href = "htdocs/boss.html" style = "animation-delay:-0.3s">Boss</a> <br>
+		</nav>
+		
+		
+		<footer>
+			<!--support links-->
+			<!--sources are placed on a separate page because it makes the page cleaner to look at-->
+			<div class = "mainSupport">
+				<p style = "position:fixed; left:2vw; bottom:1vw; z-index:3; margin: 0px"><a href = "htdocs/support.html#author">about author</a> &nbsp | &nbsp <a href = "htdocs/support.html#disclaimer">content disclaimer</a> &nbsp | &nbsp <a href = "htdocs/support.html#homePage">sources</a></p>
+			</div>
+			
+			<!--social media links-->
+			<div class = "mainSocials">
+				<a href = "https://new.reddit.com/user/MigzToGo/" target = "_blank" title = "my Reddit page"><div class = "reddit"></div></a>
+				<a href = "https://namemc.com/profile/MTR2.1" target = "_blank" title = "my NameMC page"><div class = "namemc"></div></a>
+				<a href = "https://www.facebook.com/julian.simbulan.14" target = "_blank" title = "my Facebook page"><div class = "facebook"></div></a>
+			</div>
+		</footer>
+	
+	</body>
+</html>
